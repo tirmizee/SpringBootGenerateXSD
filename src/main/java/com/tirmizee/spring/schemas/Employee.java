@@ -15,5 +15,5 @@ public class Employee {
 	protected Long empId;
 	protected String firstName;
 	protected String lastName;
-	
+	 
 }
