@@ -5,15 +5,18 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "Employee", propOrder = {
-    "empId",
-    "firstName",
-    "lastName"
-}, namespace = "http://tirmizee.com/spring/ws/employees")
-public class Employee {
-	
-	protected Long empId;
+@XmlType(
+	name = "detail",
+	namespace = "http://tirmizee.com/ws/user")
+public class User {
+
+	protected Long userId;
+	protected String username;
+	protected String citizenId;
 	protected String firstName;
 	protected String lastName;
-	 
+	protected String tel;
+	protected String email;
+	protected String branchCode;
+	
 }

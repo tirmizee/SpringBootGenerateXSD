@@ -48,14 +48,9 @@
                     </sources>
                     <transformSchemas>
                         <transformSchema>
-                            <uri>http://tirmizee.com/spring/ws</uri>
-                            <toPrefix>adds</toPrefix>
-                            <toFile>address.xsd</toFile>
-                        </transformSchema>
-                        <transformSchema>
-                            <uri>http://tirmizee.com/spring/ws/employees</uri>
-                            <toPrefix>emps</toPrefix>
-                            <toFile>employee.xsd</toFile>
+                            <uri>http://tirmizee.com/ws/user</uri>
+                            <toPrefix>users</toPrefix>
+                            <toFile>user.xsd</toFile>
                         </transformSchema>
                     </transformSchemas>
 				</configuration>
